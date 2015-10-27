@@ -1,0 +1,95 @@
+@import url('http://fonts.googleapis.com/css?family=Proxima+Nova');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-size: 16px;
+  font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    /* font-family: "proxima-nova"; */
+    font-size: 13px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header,
+#container {
+  width: 1064px;
+  margin: 0 auto;
+}
+
+#navbar {
+  height: 60px;
+  line-height: 60px;
+  text-align: right;
+}
+
+#navbar a {
+  margin: 5px;
+  text-decoration: none;
+  color: black;
+}
+
+#navbar-brand {
+  float: left;
+}
+
+header img {
+  width: 100%;
+  height: 600px;
+}
+
+section {
+  margin-bottom: 150px;
+}
+
+.about {
+  text-align: center;
+  font-size: 1.4em;
+}
+.about img {
+  height: 500px;
+  width: 500px;
+  border-radius: 100%;
+  margin-top: 2em;
+}
+
+#portfolio-container img {
+  display: inline-block;
+  width: 50%;
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  text-align: center;
+  background: #1f1f1f;
+  width: 100%;
+  margin: 0 auto;
+  padding: 30px;
+  height: 250px;
+}
+#footer-top{
+  height: 60px;
+  width: 100%;
+  padding: 20px;
+  background:#333
+}
+
+#footer-top img {
+  display: inline;
+  margin-left: 2%;
+  padding-left: 21%;
+
+}
+
+.footer-text {
+  color: white;
+}
