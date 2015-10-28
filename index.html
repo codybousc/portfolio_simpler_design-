@@ -3,53 +3,89 @@
 <head>
   <meta charset="UTF-8">
   <title>Web Development Portfolio</title>
+ <script src="js/jquery-1.11.3.js"></script>
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/mystyles.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+
 </head>
 <body>
 
-
-
-<div id="container">
-  <header class="jumbotron">
-    <nav class="navbar" id="navbar">
-      <a id="navbar-brand" class="me" href="#">Cody Bouscaren</a>
-      <a href="#home">HOME</a>
-      <a href="#portfolio-container">PORTFOLIO</a>
-      <a href="#about">ABOUT</a>
-      <a href="#footer">CONTACT</a>
-    </nav>
-    <img src="http://s18.postimg.org/hb96pcfg9/steed_desk.jpg" alt="busy desk">
+ <div class="container-fluid">
+  <header>
+        <nav class="navbar navbar-default navbar-collapse" >
+          <a id="navbar-brand" class="me" href="#">Cody Bouscaren</a>
+          <a href="#home">HOME</a>
+          <a href="#portfolio-container">PORTFOLIO</a>
+          <a href="#about">ABOUT</a>
+          <a href="#footer">CONTACT</a>
+        </nav>
   </header>
+  <div class="jumbotron">
+      <div class="container">
+          <img src="http://s18.postimg.org/hb96pcfg9/steed_desk.jpg" alt="busy desk" class="img-responsive">
+      </div>
+  </div>
+</div>
+<div class="container">
 
   <section id="about" class="about">
-    <img src="http://s2.postimg.org/qq6p7x3bd/babuna.jpg" alt="luna and i">
-    <h1 class="aboutText">Web Developer, Filmmaker, Problem Solver</h1>
-    <h1 class="aboutText">...cat lover</h1>
+      <img src="http://s2.postimg.org/qq6p7x3bd/babuna.jpg" alt="luna and i" class="img-responsive center-block">
+      <h1 class="aboutText">Web Developer, Filmmaker, Problem Solver</h1>
+      <h1 class="aboutText">...cat lover</h1>
   </section>
 
   <section id="portfolio-container">
-       <img src="http://s17.postimg.org/hib9ym3vz/royal_Tsmall.png" alt="lefty"><!--
-    --><img src="http://s13.postimg.org/tbbub69dz/rails_Portfolio.png" alt="righty"><!--
-    --><img src="http://s17.postimg.org/hib9ym3vz/royal_Tsmall.png" alt="lefty"><!--
-    --><img src="http://s13.postimg.org/tbbub69dz/rails_Portfolio.png" alt="righty">
+      <div class="row">
+          <div class="col-md-5 col-md-offset-1 col-xs-10 col-xs-offset-1">
+              <a href="https://lit-woodland-6598.herokuapp.com/">
+                  <img src="http://s17.postimg.org/hib9ym3vz/royal_Tsmall.png" alt="lefty" class="img-responsive">
+              </a>
+          </div>
+          <div class="col-md-5 col-md-offset-1 col-xs-10 col-xs-offset-1">
+              <a href="https://epicocoportfolio.herokuapp.com/">
+                  <img src="http://s13.postimg.org/tbbub69dz/rails_Portfolio.png" alt="righty" class="img-responsive">
+              </a>
+          </div>
+        </div>
+
+      <div class="row">
+          <div class="col-md-5 col-md-offset-1 col-xs-10 col-xs-offset-1">
+              <a href="https://lit-woodland-6598.herokuapp.com/">
+                  <img src="http://s17.postimg.org/hib9ym3vz/royal_Tsmall.png" alt="lefty" class="img-responsive">
+              </a>
+          </div>
+          <div class="col-md-5 col-md-offset-1 col-xs-10 col-xs-offset-1">
+              <a href="https://epicocoportfolio.herokuapp.com/">
+                  <img src="http://s13.postimg.org/tbbub69dz/rails_Portfolio.png" alt="righty" class="img-responsive">
+              </a>
+          </div>
+      </div>
   </section>
 </div>
 
-<div id="footer-top">
-  <img src="css/images/email.png" alt="" class="image-responsive">
-  <img src="css/images/twitter.png" alt="" class="image-responsive">
-  <img src="css/images/linkedin.png" alt="" class="image-responsive">
+  <div id="footer-top">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-4 col-lg-4 col-xs-4">
+                  <img src="css/images/email.png" alt="" class="image-responsive">
+              </div>
+              <div class="col-md-4 col-lg-4 col-xs-4">
+                  <img src="css/images/twitter.png" alt="" class="image-responsive">
+              </div>
+              <div class="col-md-4 col-lg-4 col-xs-4">
+                  <img src="css/images/linkedin.png" alt="" class="image-responsive">
+              </div>
+          </div>
+    </div>
 </div>
 
 <footer id="footer">
-  <h3 class="footer-text">Want to get in touch?</h3>
-  <p class="footer-text">Shoot me an
+    <h3 class="footer-text">Want to get in touch?</h3>
+    <p class="footer-text">Shoot me an
     <a href="mailto:codybousc@gmail.com?subject=Reaching%20Out!&body=Hi%20Cody,%20I'd%20like%20to%20hire%20you!">email!</a></p>
-  <h4 class="footer-text">film reel <a href="http://codybouscaren.com/" target="_blank"> website</a></h4>
+    <h4 class="footer-text">film reel <a href="http://codybouscaren.com/" target="_blank"> website</a></h4>
 </footer>
-
-<!--  Only thing that really needs explaining is that the images for the portfolio need no whitespace between them on the code so that they fit accurately with 50% widths, this is to do with the fact that inline elements count whitespace as a space and so will go over the 50% width. -->
 
 </body>
 </html>
