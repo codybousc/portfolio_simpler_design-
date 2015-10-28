@@ -31,10 +31,10 @@ header,
   text-align: right;
 }
 
-.navbar a {
+.navbar li {
   margin: 5px;
   text-decoration: none;
-  color: black;
+  float: right;
 }
 
 #navbar-brand {
