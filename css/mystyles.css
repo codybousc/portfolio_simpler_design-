@@ -31,7 +31,7 @@ header,
   text-align: right;
 }
 
-.navbar li {
+.navbar ul li {
   margin: 5px;
   text-decoration: none;
   float: right;
@@ -42,12 +42,27 @@ header,
 }
 
 .jumbotron {
-  position: relative;
+  background-image: url("http://s18.postimg.org/hb96pcfg9/steed_desk.jpg");
   width: 100%;
-  height: 100%;
+  height: 800px;
   background-size: cover;
   overflow: hidden;
 }
+
+.jumboText {
+  color: white;
+  font-family: proxima-nova,sans-serif;
+  font-size: 50px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-top: 50px;
+}
+
+.icode {
+  color: white;
+  text-decoration: none;
+}
+
 header img {
   width: 100%;
   height: 600px;
