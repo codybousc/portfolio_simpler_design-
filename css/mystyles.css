@@ -79,7 +79,8 @@ footer {
 #footer-top{
   height: 60px;
   padding: 20px;
-  background:#333
+  background:#333;
+  text-align: center;
 }
 
 #footer-top img {
