@@ -19,22 +19,11 @@ body {
     font-style: normal;
 }
 
-header,
-#container {
-  width: 1064px;
-  margin: 0 auto;
-}
-
 .navbar {
   height: 60px;
   line-height: 60px;
   text-align: right;
-}
-
-.navbar ul li {
-  margin: 5px;
-  text-decoration: none;
-  float: right;
+  opacity: .8;
 }
 
 #navbar-brand {
@@ -44,7 +33,7 @@ header,
 .jumbotron {
   background-image: url("http://s18.postimg.org/hb96pcfg9/steed_desk.jpg");
   width: 100%;
-  height: 800px;
+  height: 700px;
   background-size: cover;
   overflow: hidden;
 }
